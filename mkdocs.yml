@@ -1,0 +1,42 @@
+site_name: Téo Soetens
+site_url: 
+site_author: Téo Soetens
+site_description: >-
+  Personal website of Téo Soetens
+copyright: Copyright &copy; 2024 Téo Soetens
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: black
+    accent: white
+  language: fr
+  logo: home.png
+  favicon: home.png
+  features:
+    - navigation.instant
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - search.share
+    - header.autohide
+nav: 
+  - Acceuil: index.md
+  - Projets: 
+    - Festival Printemps 2075: printemps2075.md
+    - Défi Belgique Afrique: dba.md 
+  - À propos: about.md
+
+plugins: 
+  - search
+
+extra:
+  include_toc: yes
+  extra.logo.name: true
+  extra.show_powered_by: false
+  social:
+    - icon : fontawesome/brands/linkedin
+      link : https://www.linkedin.com/in/t%C3%A9o-soetens-4087112a7/
+      name : LinkedIn
+  generator: false
+
